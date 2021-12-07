@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  background: url("https://static.americanwell.com/app/uploads/2018/11/1200px.telehealth.carts_.jpg")
+    no-repeat center;
+  background-size: cover;
+  position: relative;
+  min-height: 1000px;
+  padding: 24px;
+}
+
+.my-form {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.form-header {
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
+  font-size: 2em;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #f1f1f1;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.form-text {
+  color: #6c757d;
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  font-weight: 400;
+}
+
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  height: 80px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  /* vertical-align: baseline;*/
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+}
